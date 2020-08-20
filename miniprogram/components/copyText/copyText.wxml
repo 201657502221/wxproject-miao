@@ -1,0 +1,2 @@
+
+<text bindtap="handleCopy" class="iconfont icon-copy"></text>

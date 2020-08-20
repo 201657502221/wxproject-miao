@@ -1,0 +1,2 @@
+<button bindtap="submit">更改签名</button>
+<input bindinput="handleText" value="{{signature}}" type="text" style="border:1rpx #666 solid"></input>

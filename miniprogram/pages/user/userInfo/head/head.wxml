@@ -1,0 +1,3 @@
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">使用微信头像</button>
+<button bindtap="submit">自定义头像头像</button>
+<image bindtap="handleImg" src="{{userPhoto}}"></image>

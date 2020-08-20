@@ -1,0 +1,4 @@
+/* miniprogram/pages/message/message.wxss */
+.message-none{
+  color: #666;text-align: center;margin-top:50rpx ;
+}

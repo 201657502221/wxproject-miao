@@ -1,0 +1,33 @@
+<wxs src="../../untils/wordSplit.wxs" module="mi" />
+<wxs src="../../untils/unitFormat.wxs" module="m2" />
+
+<search />
+
+<view class="index">
+  <view class="swiper">
+    <swiper class="index-swiper" circular="true" indicator-dots="true" autoplay="true">
+      <swiper-item wx:for="{{imgUrls}}" wx:key="index">
+        <image class="swiper-img" src="{{item.fileId}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="index-tab">
+    <view bindtap="handleCurrent" data-current="links" class="{{ current == 'links' ? 'active':''}}">推荐</view>
+    <view bindtap="handleCurrent" data-current="time" class="{{ current == 'time' ? 'active':''}}">最新</view>
+  </view>
+
+  <view class="index-list">
+    <view class="list-item" wx:for="{{listData}}" wx:key="index">
+      <image data-id="{{item._id}}" mode="aspectFill" bindtap="handleDetail"  src="{{item.userPhoto}}"></image>
+      <view class="item-font">
+        <view class="item-left">{{mi.wordSplit(item.nickName)}}</view>
+        <view  bindtap="handleLinks" class="item-right">
+          <text data-id="{{item._id}}" class="iconfont icon-dianzan"></text>
+          <text>{{m2.unitFormat(item.links)}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

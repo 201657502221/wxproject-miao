@@ -1,0 +1,40 @@
+<view class="userDetail">
+  <navigator url="name/name" open-type="navigate">
+    <view class="userDetail-item">
+      <text>修改昵称:</text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+  <navigator url="head/head" open-type="navigate">
+    <view class="userDetail-item">
+      <text>修改头像</text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+  <navigator url="signature/signature" open-type="navigate">
+    <view class="userDetail-item">
+      <text>修改签名</text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+  <navigator url="phone/phone" open-type="navigate">
+    <view class="userDetail-item">
+      <text>修改手机号 <text class="userDetail-item-tips">（仅好友可见）</text></text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+  <navigator url="location/location" open-type="navigate">
+    <view class="userDetail-item">
+      <text>共享位置 <text class="userDetail-item-tips">（仅好友可见）</text></text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+  <navigator url="wxNumber/wxNumber" open-type="navigate">
+    <view class="userDetail-item">
+      <text>修改微信号 <text class="userDetail-item-tips">（仅好友可见）</text></text>
+      <text class="iconfont icon-iconfontjiantou5"></text>
+    </view>
+  </navigator>
+</view>
+    
+    

@@ -1,0 +1,4 @@
+<view>
+  <text>是否开启位置共享：</text>
+  <switch checked="{{isLocation}}" bindchange="switchChenged"></switch>
+</view>

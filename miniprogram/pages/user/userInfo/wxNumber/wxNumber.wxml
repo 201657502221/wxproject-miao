@@ -1,0 +1,3 @@
+
+<button bindtap="submit">更改微信号</button>
+<input bindinput="handleText" value="{{weixinNumber}}" type="text" style="border:1rpx #666 solid"></input>

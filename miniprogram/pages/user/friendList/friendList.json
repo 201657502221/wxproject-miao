@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "friend-item":"/components/friendItem/friendItem"
+  }
+}

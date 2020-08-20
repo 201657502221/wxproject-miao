@@ -1,0 +1,3 @@
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">使用微信名</button>
+<button bindtap="submit">更改昵称</button>
+<input bindinput="handleText" value="{{nickName}}" type="text" style="border:1rpx #666 solid"></input>

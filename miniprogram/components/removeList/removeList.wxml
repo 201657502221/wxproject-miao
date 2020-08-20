@@ -1,0 +1,10 @@
+<!--components/removeList/removeList.wxml-->
+<movable-area class="area">
+    <movable-view out-of-bounds inertia   direction="horizontal" class="view">
+      <navigator url="{{ '/pages/index/detail/detail?userId=' + userMessage._id }}" open-type="navigate">
+        <image class="image" src="{{ userMessage.userPhoto }}"></image>
+      </navigator>
+      <text class="text" bindtap="handleAddFriend">{{ userMessage.nickName }}</text>
+      <view class="delete" bindtap="handleDelMessage">删除</view>
+    </movable-view>
+</movable-area>

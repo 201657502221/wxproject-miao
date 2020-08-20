@@ -1,0 +1,4 @@
+/* miniprogram/pages/user/userInfo/head/head.wxss */
+image{
+  width: 200rpx;height: 200rpx;border-radius: 50%;margin-left:280rpx;
+}

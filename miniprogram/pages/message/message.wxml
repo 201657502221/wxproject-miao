@@ -1,0 +1,11 @@
+<view class="message" we:show="{{logged}}">
+
+  <view class="message-none" wx:if="{{!userMessage.length}}">
+    <text>暂无消息</text>
+  </view>
+  <view class="message-new" wx:else>
+    <text>消息列表</text>
+    <remove-list bindmyevent="onMyEvent" wx:for="{{userMessage}}" wx:key="index" messageId="{{item}}" />
+  </view>
+
+</view>
